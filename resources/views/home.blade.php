@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         <title>X | Pharmacies</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f48a.svg" />
