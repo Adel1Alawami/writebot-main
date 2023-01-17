@@ -1,6 +1,6 @@
 # Writebot
 
-Demo Laravel with OpenAI.
+Demo  ss Laravel with OpenAI.
 
 ![writebot](/public/writebot.png)
 
