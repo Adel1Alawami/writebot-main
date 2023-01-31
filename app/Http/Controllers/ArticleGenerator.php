@@ -21,7 +21,7 @@ class ArticleGenerator extends Controller
         $result = $client->completions()->create([
             "model" => "text-davinci-003",
             
-            'max_tokens' => 10,
+            'max_tokens' => 4050,
             'prompt' =>  $title,
         ]);
 

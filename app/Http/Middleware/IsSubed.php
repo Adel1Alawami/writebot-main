@@ -21,7 +21,8 @@ class IsSubed
        
         
            
-            abort(403)->with('You Don not Have Access to use the api , subscribing will give full access with unlimited usage');
+        
+           return redirect('stripe');
         }
          
          return $next($request);

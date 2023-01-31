@@ -24,7 +24,7 @@
                     <img src="img/pngwing.com (3).png" viewBox="0 0 36 36" width="52" height="52" class="mx-auto w-auto">
             
                 </div>
-                <a class="navbar-brand" href="/#">Start Creating</a>
+                <a class="navbar-brand" href="/stripe">Start Creating</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -82,15 +82,24 @@
                                 @if (Route::has('login'))
                                 <div class="ml-12 text-center mt-4">
                                     @auth
-                                       
-                                        <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ url('/write') }}">CHATGPT-3</a>
+                                <div>
+
+                                      <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ url('/write') }}">CHATGPT-3</a>
                                         <a class="btn btn-outline-light btn-lg px-4" href="{{ url('/draw') }}">DALL-E</a>
+                                </div>
+                                      
+                                <div>
+
+                                    <a href="/stripe" class="btn btn-outline-light mt-4 btn-lg px-4">Subscribe</a>
+                              </div>
+
+                                        
                                         
                                     @else
                                         <a href="{{ route('register') }}" class="btn btn-primary btn-lg px-4 me-sm-3" >Get Started</a>
                                         @if (Route::has('register'))
                                             <a href="{{ route('login') }}" class="btn btn-outline-light btn-lg px-4">Login</a>
-                                            <a href="/payment" class="btn btn-outline-light btn-lg px-4">PP</a>
+                                           
                                         @endif
                                     @endauth
                                  </div>

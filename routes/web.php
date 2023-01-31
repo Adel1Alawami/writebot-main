@@ -1,9 +1,10 @@
 <?php
-use App\Http\Controllers\PaymentController;
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ArticleGenerator;
 use App\Http\Controllers\ImageGenerator;
+use App\Http\Controllers\ArticleGenerator;
+use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProfileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,12 +20,20 @@ use App\Http\Controllers\ImageGenerator;
 Route::get('/', function () {
     return view('home');
 });
-
-Route::get('/payment', function () {
-    return view('payment');
+Route::get('/jasper', function () {
+    return view('product.jasper');
 });
 
-Route::post('pay', [PaymentController::class , 'pay'])->name('payment');
+
+//STRIPE PAYMENT
+Route::get('/stripe' , [ProductController::class, 'index'])->name('pay');
+
+Route::post('/checkout' , [ProductController::class, 'checkout'])->name('checkout');
+Route::get('/cancel' , [ProductController::class, 'cancel'])->name('checkout.cancel');
+Route::get('/success' , [ProductController::class, 'success'])->name('checkout.success');
+
+
+
 
 // Route::get('/draw', function () {
 //     $title = '';
