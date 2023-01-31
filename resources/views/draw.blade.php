@@ -111,7 +111,7 @@
       <section class="mt-3" >
         <div class="card-columns mb-md-5 image-container">
           <h2 class="msg"></h2>
-          <img src=" {{$content}}"  id="image" />
+          <img src=" {{$content}}"  id="image" class="h-auto />
           
 
 
