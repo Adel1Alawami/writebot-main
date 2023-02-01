@@ -20,6 +20,7 @@ class ProductController extends Controller
     }
 
     public function checkout(Request $request){
+        
         $stripe = new \Stripe\StripeClient(env('STRIPE_SECRET_KEY'));
               
         $products = Product::all();
