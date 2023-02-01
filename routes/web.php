@@ -17,6 +17,10 @@ use App\Http\Controllers\ProfileController;
 |
 */
 
+if (App::environment('production')) {  
+    URL::forceScheme('https');  
+}  
+
 Route::get('/', function () {
     return view('home');
 });
