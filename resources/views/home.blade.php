@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-        <title>X | Pharmacies</title>
+        <title>X | Title </title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f48a.svg" />
         <!-- Bootstrap icons-->
@@ -85,7 +85,7 @@
                                 <div>
 
                                       <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ url('/write') }}">CHATGPT-3</a>
-                                        <a class="btn btn-outline-light btn-lg px-4" href="{{ url('/draw') }}">DALL-E</a>
+                                        {{-- <a class="btn btn-outline-light btn-lg px-4" href="{{ url('/draw') }}">DALL-E</a> --}}
                                 </div>
                                       
                                 <div>
@@ -151,7 +151,7 @@
      
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; X | Pharmacies</p></div>
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; X | Title </p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
