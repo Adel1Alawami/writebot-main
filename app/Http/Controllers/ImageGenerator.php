@@ -23,7 +23,7 @@ class ImageGenerator extends Controller
         
         $result = $client->images()->create([
             'prompt' => $title,
-            'size' => '256x256',
+            'size' => '1024x1024',
             'n' => 1,
            
         ]);
