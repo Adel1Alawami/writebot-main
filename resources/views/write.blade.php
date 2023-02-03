@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="dark" style="color-scheme: dark;">
+<html class="dark" style="color-scheme: only dark;">
 
 
 
