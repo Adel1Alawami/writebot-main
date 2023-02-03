@@ -22,7 +22,7 @@ class ArticleGenerator extends Controller
             "model" => "text-davinci-003",
             
             'max_tokens' => 4050,
-            'prompt' => sprintf('Write a blog about: %s', $title),
+            'prompt' => $title,
         ]);
 
         $content = trim($result['choices'][0]['text']);
