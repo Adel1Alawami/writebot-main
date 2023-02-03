@@ -85,7 +85,7 @@
                                 <div>
 
                                       <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ url('/write') }}">CHATGPT-3</a>
-                                        {{-- <a class="btn btn-outline-light btn-lg px-4" href="{{ url('/draw') }}">DALL-E</a> --}}
+                                         <a class="btn btn-outline-light btn-lg px-4" href="{{ url('/draw') }}">DALL-E</a> 
                                 </div>
                                       
                                 <div>
