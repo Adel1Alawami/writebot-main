@@ -70,6 +70,7 @@ Route::group(['middleware' => 'auth'], function(){
         });
         Route::get('/write', function () {
             $title = '';
+            // $title2= '';
             $content = '';
             return view('write', compact('title', 'content'));
         });

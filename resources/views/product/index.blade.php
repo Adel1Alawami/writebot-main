@@ -33,10 +33,9 @@
         <div id="w-node-fc22a22e-8a1c-f5bf-cdf4-79f1db8972b0-4be06711" class="rl-features_text-wrapper text-color-white">
             <div class="margin-bottom margin-large">
                 <img src="img/pngwing.com (3).png"
-                 alt="Official Jasper Logo" class="logo home-logo _20px-bottom-margin"></div><h3 class="dark-text">Imagine&nbsp;if AI could create any 
-                    <span class="gradient-underline smaller-line">art or text</span> in seconds?</h3>
-                    <p class="dark-text _20px-bottom-margin">Meet the new AI content tool that turns your text prompt into amazing art and realistic images in seconds. <br>
-                        <br>Add Writebot Art or Text to any plan for just $10/user for life-time unlimited royalty-free image/Text generations.</p>
+                 alt="Official Jasper Logo" class="logo home-logo _20px-bottom-margin"></div><h3 class="dark-text">Imagine&nbsp;if AI could create any conversation
+                    <span class="gradient-underline smaller-line">video or text</span> in seconds?</h3>
+                    <p class="dark-text _20px-bottom-margin">Meet the new AI content tool that gives you the ability to text and video chat with famous historical figures and past relatives..</p>
                         <form action="{{route('checkout')}}" method="POST">
                             @csrf
                         <button href="/stripe" class="button-11 button-large dont-shrink max-width-full-mobile-portrait w-button">Subscribe →</button>

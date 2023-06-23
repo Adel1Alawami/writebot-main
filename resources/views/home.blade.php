@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-        <title>X | Title </title>
+        <title>Historical Figures | 2023 </title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f48a.svg" />
         <!-- Bootstrap icons-->
@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
                 <div class="alert-dismissible">
-                    <img src="img/pngwing.com (3).png" viewBox="0 0 36 36" width="52" height="52" class="mx-auto w-auto">
+                    <img src="img/abelincoln.webp" viewBox="0 0 36 36" width="52" height="52" class="mx-auto w-auto">
             
                 </div>
                 <a class="navbar-brand" href="/stripe">Start Creating</a>
@@ -70,12 +70,11 @@
                                         
                                         <div class="col-lg-6">
                                             <div class="text-center">
-                                                <img src="img/pngwing.com (3).png" class="w-75">
+                                                <img src="img/abelincoln.webp" class="w-75">
                                                       </div>
                                             <div class="text-center my-5">
-                                                <h1 class="display-5 fw-bolder text-white mb-2">Lorem ipsum dolor sit amet, consectetur</h1>
-                                                <p class="lead text-white-50 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                                                    magna aliqua. Ut enim ad minim veniam.</p>
+                                                <h1 class="display-5 fw-bolder text-white mb-2">Human Re-Creator AI</h1>
+                                                <p class="lead text-white-50 mb-4">The AI gives you the ability to text and video chat with famous historical figures and past relatives.</p>
                     
                                            
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
@@ -84,8 +83,8 @@
                                     @auth
                                 <div>
 
-                                      <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{{ url('/write') }}">CHATGPT-3</a>
-                                         <a class="btn btn-outline-light btn-lg px-4" href="{{ url('/draw') }}">DALL-E</a> 
+                                      <a class="btn btn-primary btn-lg px-4 " href="{{ url('/write') }}">Historical Figures Chat</a>
+                                         <a hidden class="btn btn-outline-light btn-lg px-4" href="{{ url('/draw') }}">DALL-E</a> 
                                 </div>
                                       
                                 <div>
@@ -151,7 +150,7 @@
      
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; X | Title </p></div>
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Historical Figures | 2023 </p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
