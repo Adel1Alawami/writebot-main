@@ -45,7 +45,7 @@ class ProductController extends Controller
             'line_items' => $lineItem,
             'mode' => 'payment',
             'success_url' => route('checkout.success', [], true)."?session_id={CHECKOUT_SESSION_ID}" ,
-            // 'cancel_url' => route('checkout.cancel',[],true),
+            'cancel_url' => route('checkout.cancel',[],true),
           ]);
 
           $order = new Order();
