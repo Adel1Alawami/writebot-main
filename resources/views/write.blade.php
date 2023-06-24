@@ -38,7 +38,7 @@
         }
     </style>
     <script src="https://unpkg.com/marked" defer></script>
-<body><div id="__next"><script>!function(){try{var d=document.documentElement,c=d.classList;c.remove('light','dark');var e=localStorage.getItem('theme');if('system'===e||(!e&&true)){var t='(prefers-color-scheme: dark)',m=window.matchMedia(t);if(m.media!==t||m.matches){d.style.colorScheme = 'dark';c.add('dark')}else{d.style.colorScheme = 'light';c.add('light')}}else if(e){c.add(e|| '')}if(e==='light'||e==='dark')d.style.colorScheme=e}catch(e){}}()</script><div class="overflow-auto w-full z-20 h-full relative"><div class="flex h-full flex-1 flex-col md:pl-[260px]">
+<body><div id="__next"><div class="overflow-auto w-full z-20 h-full relative"><div class="flex h-full flex-1 flex-col md:pl-[260px]">
     <main class="relative h-full w-full transition-width flex flex-col overflow-auto items-stretch flex-1"><div class="flex-1 overflow-auto">
     <div class="react-scroll-to-bottom--css-espuq-79elbk h-full dark:bg-gray-800"><div class="react-scroll-to-bottom--css-espuq-1n7m0yu">
         <div class="flex flex-col items-center text-sm h-full dark:bg-gray-800">
@@ -101,9 +101,9 @@
        <a href="https://writebot-main-production.up.railway.app/write" class="flex py-3 px-3 items-center gap-3 rounded-md hover:bg-gray-500/10 transition-colors duration-200 text-white cursor-pointer text-sm">
         <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 
          0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line>
-        </svg>Clear conversations</a><a href="https://discord.gg/openai" target="_blank" class="bi-discord flex py-3 px-3 items-center gap-3 rounded-md hover:bg-gray-500/10
+        </svg>Clear conversations</a><a hidden href="https://discord.gg/openai" target="_blank" class="bi-discord flex py-3 px-3 items-center gap-3 rounded-md hover:bg-gray-500/10
      transition-colors duration-200 text-white cursor-pointer text-sm">OpenAI Discord</a>
-     <a href="https://beta.openai.com/docs/guides/completion" target="_blank" class="flex py-3 px-3 items-center gap-3 rounded-md hover:bg-gray-500/10 
+     <a hidden href="https://beta.openai.com/docs/guides/completion" target="_blank" class="flex py-3 px-3 items-center gap-3 rounded-md hover:bg-gray-500/10 
      transition-colors duration-200 text-white cursor-pointer text-sm"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2
       0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
     
