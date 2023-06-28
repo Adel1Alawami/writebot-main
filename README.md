@@ -2,5 +2,6 @@
 
 Demo  ss Laravel with OpenAI.
 
-![writebot](/public/writebot.png)
+![writebot](/public/demo.PNG)
+![writebot](/public/demoii.PNG)
 
